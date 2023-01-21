@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70f4a749d81d99c48943de0810aba854, type: 3}
+  m_Name: Kain
+  m_EditorClassIdentifier: 
+  displayName: Kain
+  sprite: {fileID: 1411749123, guid: f92b429cf35fba7419ccfd83e979fdf9, type: 3}
+  level: 10
+  hp: 190
+  currentHp: 190
+  mp: 0
+  currentMp: 0
+  totalExp: 2300
+  expLastLevel: 2256
+  expToNext: 0
+  aTBMeter: 1
+  attack: 0
+  accuracy: 0
+  defense: 0
+  evasion: 0
+  magicDefense: 0
+  magicEvasion: 0
+  critChance: 0.02
+  critBonus: 20
+  strength: 9
+  speed: 11
+  stamina: 9
+  intellect: 6
+  spirit: 12
+  elementalAffinity:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  statusImmunities: 0000000000000000000000000000000000
+  restorativeAffinity: -1
+  drainOsmoseAffinity: 1
+  commands: 01000000130000000200000003000000050000000000000000000000

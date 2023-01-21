@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63ace966a99e7b646bd39eb35957d728, type: 3}
+  m_Name: Goblin
+  m_EditorClassIdentifier: 
+  displayName: Goblin
+  sprite: {fileID: 1386528729, guid: ad2a4835a1639d0489bd83d8d0d61236, type: 3}
+  level: 3
+  hp: 6
+  currentHp: 6
+  mp: 0
+  currentMp: 0
+  totalExp: 28
+  expLastLevel: 0
+  expToNext: 0
+  aTBMeter: 0
+  charging: 0
+  chargeMeter: 0
+  chargeMult: 1
+  attack: 19
+  accuracy: 0.75
+  defense: 0
+  evasion: 0
+  magicDefense: 0
+  magicEvasion: 0
+  critChance: 0
+  critBonus: 0
+  strength: 0
+  speed: 2
+  stamina: 0
+  intellect: 0
+  spirit: 0
+  elementalAffinity:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  statusImmunities: 0000000000000000000000000000000000
+  restorativeAffinity: 0
+  drainOsmoseAffinity: 0
+  actions:
+  - {fileID: 11400000, guid: cf3ca3c59c4d7e949a10630c6a3e8e57, type: 2}
