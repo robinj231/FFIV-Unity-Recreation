@@ -8,32 +8,74 @@ public class FightingUnit : ScriptableObject
     public string displayName;
     public Sprite sprite;
 
-    [Header("Slider Stats")]
-    public int level;
+    [Header("HP/MP")]
     public int hp;
     public int currentHp;
     public int mp;
     public int currentMp;
-    public int totalExp;
-    public int expLastLevel;
-    public int expToNext;
 
-    [Header("Battle Stats")]
-    public int attack;
-    public float accuracy;
-    public int defense;
-    public float evasion;
-    public int magicDefense;
-    public float magicEvasion;
-    public float critChance;
-    public int critBonus;
+    //
+    // Battle stat functions
+    //
+    public virtual int GetAttack()
+    {
+        return 0;
+    }
 
-    [Header("Character Stats")]
-    public int strength;
-    public int speed;
-    public int stamina;
-    public int intellect;
-    public int spirit;
+    public virtual float GetAccuracy()
+    {
+        return 0;
+    }
+
+    public virtual int GetAttackMult()
+    {
+        return 0;
+    }
+
+    public virtual int GetDefense()
+    {
+        return 0;
+    }
+
+    public virtual float GetEvasion()
+    {
+        return 0;
+    }
+
+    public virtual int GetDefenseMult()
+    {
+        return 0;
+    }
+
+    public virtual int GetMagicDef()
+    {
+        return 0;
+    }
+
+    public virtual float GetMagicEvade()
+    {
+        return 0;
+    }
+
+    public virtual int GetMgcDefMult()
+    {
+        return 0;
+    }
+
+    public virtual float GetCritChance()
+    {
+        return 0;
+    }
+
+    public virtual int GetCritBonus()
+    {
+        return 0;
+    }
+
+    public virtual float GetAgility()
+    {
+        return 0;
+    }
 
     [Header("Affinities")]
     public float[] elementalAffinity = new float[6];
@@ -42,4 +84,7 @@ public class FightingUnit : ScriptableObject
     public float drainOsmoseAffinity;
 
     public Action[] actions;
+
+    [Header("Experience")]
+    public int level;
 }

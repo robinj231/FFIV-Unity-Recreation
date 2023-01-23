@@ -112,9 +112,8 @@ public class BattleScene : MonoBehaviour
                 foreach(UnitInstance target in toPerform.targets)
                 {
                     target.GetComponent<SpriteRenderer>().color = Color.red;
+                    //Instantiate(damageEffectPrefab, target.transform.position, Quaternion.identity).GetComponent<DamageTextEffect>().SetText((toPerform.action.power + toPerform.actor.statModule.attack).ToString());
                 }
-
-                Instantiate(damageEffectPrefab).GetComponent<DamageTextEffect>().SetText((toPerform.action.power + toPerform.actor.statModule.attack).ToString());
             }
         }
         else
@@ -139,7 +138,7 @@ public class BattleScene : MonoBehaviour
     {
         foreach (UnitInstance target in action.targets)
         {
-            target.statModule.currentHp -= action.action.power + action.actor.statModule.attack;
+            //target.statModule.currentHp -= action.action.power + action.actor.statModule.attack;
         }
         action.actor.statModule.currentMp -= action.action.mPCost;
         action.actor.statModule.currentHp -= action.action.hPCost;

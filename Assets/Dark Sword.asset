@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10126c5d629d0d347a54a20693a4bef3, type: 3}
+  m_Name: Dark Sword
+  m_EditorClassIdentifier: 
+  displayName: Dark Sword
+  sprite: {fileID: -1120712597, guid: e13e730a07686dd4387dbec86d8cd921, type: 3}
+  attack: 10
+  accuracy: 80
+  spellCast: 0
+  spellPower: 0
+  darkCecil: 1
+  kain: 0
+  rydia: 0
+  tellah: 0
+  edward: 0
+  rosa: 0
+  yang: 0
+  palom: 0
+  porom: 0
+  cecil: 0
+  cid: 0
+  edge: 0
+  fusoya: 0
+  element: 4
+  status: 0
+  strength: 0
+  speed: 0
+  stamina: 0
+  intellect: 0
+  spirit: 0
+  twoHanded: 0
+  arrow: 0
+  bow: 0
+  shield: 0
+  metallic: 1
+  noCritical: 0
+  hammer: 0
+  litArrow: 0
+  noBackRowPenalty: 0
+  canThrow: 0
+  dragon: 0
+  machine: 0
+  reptile: 0
+  spiritRace: 0
+  giant: 0
+  slime: 0
+  mage: 0
+  undead: 0

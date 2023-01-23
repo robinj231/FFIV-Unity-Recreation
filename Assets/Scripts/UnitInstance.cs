@@ -14,11 +14,11 @@ public class UnitInstance : MonoBehaviour
     {
         if(!charging)
         {
-            aTBMeter += (float)statModule.speed / 1650;
+            //aTBMeter += (float)statModule.speed / 1650;
         }
         else
         {
-            aTBMeter += (float)statModule.speed / 1650 / chargeMult;
+            //aTBMeter += (float)statModule.speed / 1650 / chargeMult;
         }
     }
 
