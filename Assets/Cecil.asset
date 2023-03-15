@@ -14,31 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   displayName: Cecil
   sprite: {fileID: 793874144, guid: f08781dbb96ab9d44813ecbdd4675eb5, type: 3}
-  level: 10
   hp: 200
   currentHp: 200
   mp: 0
   currentMp: 0
-  totalExp: 3000
-  expLastLevel: 2403
-  expToNext: 0
-  aTBMeter: 0.109090924
-  charging: 0
-  chargeMeter: 0
-  chargeMult: 1
-  attack: 0
-  accuracy: 0
-  defense: 0
-  evasion: 0
-  magicDefense: 0
-  magicEvasion: 0
-  critChance: 0.02
-  critBonus: 20
-  strength: 13
-  speed: 10
-  stamina: 11
-  intellect: 6
-  spirit: 3
   elementalAffinity:
   - 0
   - 0
@@ -50,4 +29,20 @@ MonoBehaviour:
   restorativeAffinity: -1
   drainOsmoseAffinity: 1
   actions: []
+  level: 10
+  totalExp: 3000
+  expLastLevel: 2403
+  expToNext: 0
   commands: 01000000100000000200000003000000050000000000000000000000
+  strength: 13
+  agility: 9
+  stamina: 11
+  intellect: 6
+  spirit: 3
+  handedness: 0
+  rightHand: {fileID: 0}
+  leftHand: {fileID: 0}
+  helmet: {fileID: 0}
+  armor: {fileID: 0}
+  gloves: {fileID: 0}
+  isYang: 0

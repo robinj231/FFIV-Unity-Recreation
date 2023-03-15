@@ -14,28 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   displayName: Kain
   sprite: {fileID: 1411749123, guid: f92b429cf35fba7419ccfd83e979fdf9, type: 3}
-  level: 10
   hp: 190
   currentHp: 190
   mp: 0
   currentMp: 0
-  totalExp: 2300
-  expLastLevel: 2256
-  expToNext: 0
-  aTBMeter: 1
-  attack: 0
-  accuracy: 0
-  defense: 0
-  evasion: 0
-  magicDefense: 0
-  magicEvasion: 0
-  critChance: 0.02
-  critBonus: 20
-  strength: 9
-  speed: 11
-  stamina: 9
-  intellect: 6
-  spirit: 12
   elementalAffinity:
   - 0
   - 0
@@ -46,4 +28,21 @@ MonoBehaviour:
   statusImmunities: 0000000000000000000000000000000000
   restorativeAffinity: -1
   drainOsmoseAffinity: 1
+  actions: []
+  level: 10
+  totalExp: 2300
+  expLastLevel: 2256
+  expToNext: 0
   commands: 01000000130000000200000003000000050000000000000000000000
+  strength: 9
+  agility: 11
+  stamina: 9
+  intellect: 6
+  spirit: 12
+  handedness: 0
+  rightHand: {fileID: 0}
+  leftHand: {fileID: 0}
+  helmet: {fileID: 0}
+  armor: {fileID: 0}
+  gloves: {fileID: 0}
+  isYang: 0

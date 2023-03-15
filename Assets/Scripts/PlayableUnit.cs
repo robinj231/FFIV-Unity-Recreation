@@ -129,46 +129,46 @@ public class PlayableUnit : FightingUnit
         return strength / 8 + agility / 16 + 1;
     }
 
-    public override int GetDefense()
-    {
-        int equipDefense = 0;
-        //if(leftHand != null) equipDefense += leftHand
-    }
+    //public override int GetDefense()
+    //{
+    //    int equipDefense = 0;
+    //    //if(leftHand != null) equipDefense += leftHand
+    //}
 
-    public override float GetEvasion()
-    {
-        return evasion;
-    }
+    //public override float GetEvasion()
+    //{
+    //    return evasion;
+    //}
 
-    public override int GetDefenseMult()
-    {
-        return defMult;
-    }
+    //public override int GetDefenseMult()
+    //{
+    //    return defMult;
+    //}
 
-    public override int GetMagicDef()
-    {
-        return magicDefense;
-    }
+    //public override int GetMagicDef()
+    //{
+    //    return magicDefense;
+    //}
 
-    public override float GetMagicEvade()
-    {
-        return magicEvasion;
-    }
+    //public override float GetMagicEvade()
+    //{
+    //    return magicEvasion;
+    //}
 
-    public override int GetMgcDefMult()
-    {
-        return mgcDefMult;
-    }
+    //public override int GetMgcDefMult()
+    //{
+    //    return mgcDefMult;
+    //}
 
-    public override float GetCritChance()
-    {
-        return critChance;
-    }
+    //public override float GetCritChance()
+    //{
+    //    return critChance;
+    //}
 
-    public override int GetCritBonus()
-    {
-        return critBonus;
-    }
+    //public override int GetCritBonus()
+    //{
+    //    return critBonus;
+    //}
 
     public override float GetAgility()
     {
